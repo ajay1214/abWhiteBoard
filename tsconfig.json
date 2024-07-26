@@ -7,13 +7,15 @@
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "node", // Changed to "node" from "bundler" for better compatibility
+    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "forceConsistentCasingInFileNames": true, // Added for consistent casing in file names
-    "strictNullChecks": true, // Added for strict null checks
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": true,
+    "downlevelIteration": true, // Add this line
+    "target": "es2015", // Ensure the target is set to es2015 or higher
     "plugins": [
       {
         "name": "next"
