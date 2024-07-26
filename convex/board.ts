@@ -25,7 +25,6 @@ export const create = mutation({
 
     const randomImage = images[Math.floor(Math.random() * images.length)];
 
-    // 向表中成功插入一行数据后后，返回该行的id
     const board = await ctx.db.insert("boards", {
       title: args.title,
       orgId: args.orgId,
@@ -33,8 +32,7 @@ export const create = mutation({
       authorName: identity.name!,
       imgUrl: randomImage,
     });
-
-    // 返回id
+    
     return board;
   },
 });

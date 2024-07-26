@@ -6,8 +6,8 @@ export const Loading = () => {
       <Image
         src="/abWBsvg.svg"
         alt="logo"
-        width={480}
-        height={240}
+        width={200}
+        height={100}
         className="animate-pulse duration-700"
       />
     </div>

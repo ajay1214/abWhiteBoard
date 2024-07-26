@@ -63,7 +63,7 @@ export const BoardCard = ({
   return (
     <Link href={`/board/${_id}`}>
       <div className="group aspect-[100/128] border rounded-lg flex flex-col justify-between overflow-hidden">
-        <div className="relative flex-1 bg-amber-50">
+        <div className="relative flex-1 bg-sky-200">
           <Image src={imgUrl} alt={title} fill className="object-fit" />
           <Overlay />
           <Actions id={_id} title={title} side="right">
