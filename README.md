@@ -31,7 +31,7 @@ Welcome to the **Collaborative Whiteboard** project! This application is a real-
 
 ## 📧 Contact
 
-If you have any questions or feedback, feel free to reach out via [adarshbind61@gmail.com/8174959801].
+If you have any questions or feedback, feel free to reach out via [adarshbind61@gmail.com].
 
 ---
 
