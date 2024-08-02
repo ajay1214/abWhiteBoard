@@ -20,6 +20,7 @@ Welcome to the **Collaborative Whiteboard** project! This application is a real-
 - **⭐️ Favoriting Functionality:** Mark important boards as favorites for quick access.
 - **🌐 Built with Next.js 14:** Leveraging the power of Next.js 14 for a modern, fast, and scalable application.
 - **💅 Styled with TailwindCSS & ShadcnUI:** Enjoy a sleek and responsive design, styled with TailwindCSS and ShadcnUI.
+- **💸 Making it SaaS app:** (TO DO).
 
 ## 🛠️ Tech Stack
 
